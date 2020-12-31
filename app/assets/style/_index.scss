@@ -1,0 +1,83 @@
+// 計算機區
+.calc_bg-img{
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../images/revenue_m.png");
+}
+
+//計算機記錄列表
+.showdata{
+    margin-top:-160px;
+}
+
+.showdata .material-icons{
+    font-size: 50px;
+}
+.txt{
+    font-size: 30px;
+}
+
+//有什麼好處區
+.advantage img{
+    height: 180px;
+    margin-bottom: 20px;
+}
+.swiper-container {
+    height: 350px;
+}  
+
+// 加入區
+.join img{
+    height: 300px;
+}
+
+
+
+
+
+// 不同裝置文字大小
+// Extra small devices (portrait phones, less than 576px)
+
+@media (max-width: 575.98px) {
+    .h2-sm{
+        font-size: 32px;
+    }
+    .calc{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("../images/revenue_m.png");
+    }
+    .icon-s{
+        font-size: 10px;
+    }
+  
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .font-md{
+        font-size: 14px;
+    }
+
+    .font-sm{
+        font-size: 36px;
+    }
+    .font-xl{
+        font-size: 50px;
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    
+}
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width

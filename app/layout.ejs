@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- 網站描述進階資訊 -->
+  <meta name="description" content="可以計算如果要達到目標月薪，每個月需要花多少時間上線的網站！">
+  <meta property="og:title" content="SUANKAN 投入工時計算器">
+  <meta property="og:description" content="可以計算如果要達到目標月薪，每個月需要花多少時間上線的簡易計算網站！">
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="FB上的網址"/>
+  <meta property="og:image" content="./assets/images/fb_logo.png"/>
+
+  <title><%- title %></title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!-- swiper 輪播連結 -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <!-- 使用字型連結 -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+  <!-- 使用 Material icon 連結 -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <!-- 網頁 icon -->
+  <link rel="icon" href="./assets/images/favicon-16x16.png">
+  <!-- AOS 動畫套件 -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <a class="navbar-brand" href="#"><span class="bg-primary text-white py-1 px-1 mr-1 rounded">SUAN</span>KAN</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active bg-hover-primary">
+          <a class="nav-link" href="#calc">計算工時 <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#adv">加入好處</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#join">先來登記</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+    <%- contents %>
+
+<footer>
+  <div class="container-fluid bg-info">
+    <p class="text-center py-2 text-light">SUANKAN @2020 copyright</p>
+  </div>
+</footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.2/countUp.min.js'></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
