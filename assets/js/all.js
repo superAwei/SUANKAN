@@ -125,6 +125,16 @@ var swiper = new Swiper('.swiper-container', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev'
   }
+}); //滾動頁面
+
+$(document).ready(function () {
+  $('.scrollTop').click(function () {
+    var target = $(this).attr('href');
+    var targetPos = $(target).offset().top;
+    $('body').animate({
+      scrollTop: targetPos
+    }, 1000);
+  });
 }); //動畫效果
 
 AOS.init();

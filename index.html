@@ -38,13 +38,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active bg-hover-primary">
-          <a class="nav-link" href="#calc">計算工時 <span class="sr-only">(current)</span></a>
+          <a class="nav-link scrollTop" href="#calc">計算工時 <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#adv">加入好處</a>
+          <a class="nav-link scrollTop" href="#adv">加入好處</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#join">先來登記</a>
+          <a class="nav-link scrollTop" href="#join">先來登記</a>
         </li>
       </ul>
     </div>
@@ -52,17 +52,17 @@
 </header>
     
 <!-- 主視覺 -->
-<section class="container">
+<section class="container ">
   <div class="row py-5 d-flex align-items-center">
     <div class="col-lg-6 col-md-6 order-lg-2">
       <img src="./assets/images/calculator.svg" alt="" class="img-fluid" style="width:900" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="linear">
     </div>
     <div class="col-lg-6 col-md-6">
-      <div class="jumbotron bg-transparent bg-cover">
-        <h1 class="display-4 h1 mb-3 font-sm">算算看要上線多久</h1>
+      <div class="jumbotron bg-transparent bg-cover mb-0">
+        <h1 class="display-4 h1 mb-3 font-sm ">算算看要上線多久</h1>
         <p class="mb-3">開車賺錢有一些成本，油錢、靠行費、保險費...如果每個月目標想淨賺6萬扣除營業成本，這樣一個月下來要投入多少時間開車呢？來算算看吧！
         </p>
-        <a class="btn btn-primary btn-lg mb-3 " href="#" role="button">開始計算</a>
+        <a class="btn btn-primary btn-lg mb-3 " href="#calc" role="button">開始計算</a>
       </div>
     </div>
   </div>
@@ -172,10 +172,10 @@
   <!-- //顯示工時 -->
   <div class="container showdata">
     <div class="row">
-      <div class="col-12 text-center">
-        <div id="workhour" class="display-2 font-weight-bold  text-dark font-xl"></div>
+      <div class="col-12 text-center mb-5">
+        <div id="workhour" class="display-2 font-weight-bold  work_hour font-xl">000.00</div>
       </div>
-      <div class="col-12 text-center">
+      <div class="col-12 text-center ">
         <div id="list" class="mb-5"></div>
       </div>
    </div>
@@ -188,7 +188,7 @@
   <div class="row">
     <div class="swiper-container d-flex align-items-center mb-5">
       <div class="swiper-wrapper">
-          <div class="swiper-slide col-9 col-md-4 col-lg-3 ">
+          <div class="swiper-slide col-12 col-md-4 col-lg-3 ">
             <div class="card">
               <img src="./assets/images/money_jar.svg" class="card-img-top h-175 rounded" alt="...">
               <div class="card-body text-center">
@@ -198,7 +198,7 @@
             </div>
           </div>
         
-          <div class="swiper-slide col-9 col-md-4 col-lg-3">
+          <div class="swiper-slide col-12 col-md-4 col-lg-3">
             <div class="card">
               <img src="./assets/images/boy_swimming_monochromatic.svg" class="card-img-top h-175 rounded" alt="...">
               <div class="card-body text-center">
@@ -207,7 +207,7 @@
               </div>
             </div>
           </div>
-          <div class="swiper-slide col-9 col-md-4 col-lg-3">
+          <div class="swiper-slide col-12 col-md-4 col-lg-3">
             <div class="card">
               <img src="./assets/images/chat.svg" class="card-img-top rounded" alt="...">
               <div class="card-body text-center">
@@ -216,7 +216,7 @@
               </div>
             </div>
           </div>
-          <div class="swiper-slide col-9 col-md-4 col-lg-3">
+          <div class="swiper-slide col-12 col-md-4 col-lg-3">
             <div class="card">
               <img src="./assets/images/finance_analytics_.svg" class="card-img-top h-175 rounded" alt="...">
               <div class="card-body text-center">
@@ -225,7 +225,7 @@
               </div>
             </div>
           </div>
-          <div class="swiper-slide col-9 col-md-4 col-lg-3">
+          <div class="swiper-slide col-12 col-md-4 col-lg-3">
             <div class="card">
               <img src="./assets/images/map_monochromatic.svg" class="card-img-top h-175 rounded" alt="...">
               <div class="card-body text-center">
@@ -234,7 +234,7 @@
               </div>
             </div>
           </div>
-          <div class="swiper-slide col-9 col-md-4 col-lg-3">
+          <div class="swiper-slide col-12 col-md-4 col-lg-3">
             <div class="card">
               <img src="./assets/images/easter_egg_monochromatic.svg" class="card-img-top h-175 rounded" alt="...">
               <div class="card-body text-center">
