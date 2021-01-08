@@ -8351,7 +8351,8 @@ li .bg-hover-primary:hover {
   font-size: 30px; }
 
 .work_hour {
-  color: #070e49; }
+  color: #fff;
+  text-shadow: 20px 0px 40px #00acfb, 10px 20px 80px #384cff, 0px 0px 30px #6ac3ff, 0px 0px 90px #fbfcff, 0px 0px 20px #c1deff, 10px 0px 30px #8ad4ff, 0px 0px 100px white; }
 
 .advantage img {
   height: 160px;
