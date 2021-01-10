@@ -60,7 +60,7 @@ document.getElementById('calcstar').onclick = function (e) {
     for (var i = 0; i < len; i++) {
       // str += '<li><a href="#" data-index='+i+'>刪除</a><span>'+items[i].content+'</span></li>'; //把 HTML 標籤組合起來
       // str += '<li><span>'+items[i].content+'</span><a href="#"  data-index='+i+'><i class="far fa-trash-alt"></i></a></li>'; //把 HTML 標籤組合起來
-      str += '<div class="border rounded-pill mb-2 d-flex align-item-center justify-content-center"><span class="txt text-dark font-md d-flex align-items-center">' + '需上線' + '<sapn class="mx-3 text-warning">' + items[i].content + '</sapn>' + '小時才能達到每月預期收入' + '</span><a href="#"  data-index=' + i + ' class="material-icons text-decoration-none icon-s">delete_forever</a></div>';
+      str += '<div class="border rounded-pill mb-2 d-flex align-item-center justify-content-center"><span class="txt text-dark font-md d-flex align-items-center">' + '需上線' + '<sapn class="mx-3 text-light">' + items[i].content + '</sapn>' + '小時才能達到每月預期收入' + '</span><a href="#"  data-index=' + i + ' class="material-icons text-decoration-none icon-s text-danger">delete_forever</a></div>';
     }
 
     list.innerHTML = str; //把上面組合好的HTML， 放進 list 列表內
