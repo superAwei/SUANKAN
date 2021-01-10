@@ -8354,7 +8354,8 @@ li .bg-hover-primary:hover {
   color: #fff;
   text-shadow: 20px 0px 40px #00acfb, 10px 20px 80px #384cff, 0px 0px 30px #6ac3ff, 0px 0px 90px #fbfcff, 0px 0px 20px #c1deff, 10px 0px 30px #8ad4ff, 0px 0px 100px white; }
 
-.text-light {
+.text-light2 {
+  color: #fff;
   text-shadow: 0px 0px 20px #06ffea, 0px 0px 10px #386dff, 0px 0px 10px #6ac3ff, 0px 0px 20px #0846ff, 0px 0px 20px white, 0px 0px 30px #73ccff, 0px 0px 100px #0c75ff; }
 
 .advantage img {
